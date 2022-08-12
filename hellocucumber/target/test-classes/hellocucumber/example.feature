@@ -1,21 +1,18 @@
-Feature: An example
+Feature: Currency Conversion
 
-  Scenario: The example 1
-    Given add rate "USD", "JPY", 132.62
-    Given add rate "USD", "AUD", 1.40
-    Given add rate "JPY", "GBP", 0.0062
-    Given add wanted "AUD", "USD", 1.0
-    Given expected result 0.71
-    When solve the problem
-    Then the results match
+  Scenario: AUD to USD
+    Given currency rate "USD" to "JPY" is 132.62
+    And "USD" to "AUD" is 1.40
+    And "JPY" to "GBP" is 0.0062
+    And "AUD" to "USD" is 1.0
+    When we want 1.0 "AUD" to be converted to "USD"
+    Then the result should be 0.71
 
-  Scenario: The example 2
-    Given add rate "USD", "JPY", 132.62
-    Given add rate "USD", "AUD", 1.40
-    Given add rate "AUD", "TRY", 12.79
-    Given add rate "EUR", "TRY", 18.58
-    Given add rate "JPY", "GBP", 0.0062
-    Given add wanted "GBP", "EUR", 1.0
-    Given expected result 1.18
-    When solve the problem
-    Then the results match
+  Scenario: GBP to EUR
+    Given currency rate "USD" to "JPY" is 132.62
+    And "USD" to "AUD" is 1.40
+    And "AUD" to "TRY" is 12.79
+    And "EUR" to "TRY" is 18.58
+    And "JPY" to "GBP" is 0.0062
+    When we want 1.0 "GBP" to be converted to "EUR"
+    Then the result should be 1.17

@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="hellocucumber.RunCucumberTest" time="0.168" tests="1" errors="1" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="hellocucumber.RunCucumberTest" time="0.149" tests="2" errors="0" skipped="0" failures="0">
   <properties>
     <property name="sun.desktop" value="gnome"/>
     <property name="awt.toolkit" value="sun.awt.X11.XToolkit"/>
     <property name="java.specification.version" value="11"/>
     <property name="sun.cpu.isalist" value=""/>
     <property name="sun.jnu.encoding" value="UTF-8"/>
-    <property name="java.class.path" value="/home/burak/Projects/hellocucumber/target/test-classes:/home/burak/Projects/hellocucumber/target/classes:/home/burak/.m2/repository/io/cucumber/cucumber-java/7.5.0/cucumber-java-7.5.0.jar:/home/burak/.m2/repository/io/cucumber/cucumber-core/7.5.0/cucumber-core-7.5.0.jar:/home/burak/.m2/repository/io/cucumber/cucumber-gherkin/7.5.0/cucumber-gherkin-7.5.0.jar:/home/burak/.m2/repository/io/cucumber/cucumber-gherkin-messages/7.5.0/cucumber-gherkin-messages-7.5.0.jar:/home/burak/.m2/repository/io/cucumber/gherkin/23.0.1/gherkin-23.0.1.jar:/home/burak/.m2/repository/io/cucumber/messages/18.0.0/messages-18.0.0.jar:/home/burak/.m2/repository/io/cucumber/tag-expressions/4.1.0/tag-expressions-4.1.0.jar:/home/burak/.m2/repository/io/cucumber/cucumber-expressions/16.0.0/cucumber-expressions-16.0.0.jar:/home/burak/.m2/repository/io/cucumber/datatable/7.5.0/datatable-7.5.0.jar:/home/burak/.m2/repository/io/cucumber/cucumber-plugin/7.5.0/cucumber-plugin-7.5.0.jar:/home/burak/.m2/repository/io/cucumber/docstring/7.5.0/docstring-7.5.0.jar:/home/burak/.m2/repository/io/cucumber/html-formatter/19.2.0/html-formatter-19.2.0.jar:/home/burak/.m2/repository/io/cucumber/ci-environment/9.1.0/ci-environment-9.1.0.jar:/home/burak/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/home/burak/.m2/repository/io/cucumber/cucumber-junit-platform-engine/7.5.0/cucumber-junit-platform-engine-7.5.0.jar:/home/burak/.m2/repository/org/junit/platform/junit-platform-engine/1.9.0/junit-platform-engine-1.9.0.jar:/home/burak/.m2/repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar:/home/burak/.m2/repository/org/junit/platform/junit-platform-commons/1.9.0/junit-platform-commons-1.9.0.jar:/home/burak/.m2/repository/org/junit/platform/junit-platform-suite/1.9.0/junit-platform-suite-1.9.0.jar:/home/burak/.m2/repository/org/junit/platform/junit-platform-suite-api/1.9.0/junit-platform-suite-api-1.9.0.jar:/home/burak/.m2/repository/org/junit/platform/junit-platform-suite-engine/1.9.0/junit-platform-suite-engine-1.9.0.jar:/home/burak/.m2/repository/org/junit/platform/junit-platform-suite-commons/1.9.0/junit-platform-suite-commons-1.9.0.jar:/home/burak/.m2/repository/org/junit/platform/junit-platform-launcher/1.9.0/junit-platform-launcher-1.9.0.jar:/home/burak/.m2/repository/org/junit/jupiter/junit-jupiter/5.9.0/junit-jupiter-5.9.0.jar:/home/burak/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.9.0/junit-jupiter-api-5.9.0.jar:/home/burak/.m2/repository/org/junit/jupiter/junit-jupiter-params/5.9.0/junit-jupiter-params-5.9.0.jar:/home/burak/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.9.0/junit-jupiter-engine-5.9.0.jar:"/>
+    <property name="java.class.path" value="/home/burak/Projects/hellocucumber/target/test-classes:/home/burak/Projects/hellocucumber/target/classes:/home/burak/.m2/repository/io/cucumber/cucumber-java/7.5.0/cucumber-java-7.5.0.jar:/home/burak/.m2/repository/io/cucumber/cucumber-core/7.5.0/cucumber-core-7.5.0.jar:/home/burak/.m2/repository/io/cucumber/cucumber-gherkin/7.5.0/cucumber-gherkin-7.5.0.jar:/home/burak/.m2/repository/io/cucumber/cucumber-gherkin-messages/7.5.0/cucumber-gherkin-messages-7.5.0.jar:/home/burak/.m2/repository/io/cucumber/gherkin/23.0.1/gherkin-23.0.1.jar:/home/burak/.m2/repository/io/cucumber/messages/18.0.0/messages-18.0.0.jar:/home/burak/.m2/repository/io/cucumber/tag-expressions/4.1.0/tag-expressions-4.1.0.jar:/home/burak/.m2/repository/io/cucumber/cucumber-expressions/16.0.0/cucumber-expressions-16.0.0.jar:/home/burak/.m2/repository/io/cucumber/datatable/7.5.0/datatable-7.5.0.jar:/home/burak/.m2/repository/io/cucumber/cucumber-plugin/7.5.0/cucumber-plugin-7.5.0.jar:/home/burak/.m2/repository/io/cucumber/docstring/7.5.0/docstring-7.5.0.jar:/home/burak/.m2/repository/io/cucumber/html-formatter/19.2.0/html-formatter-19.2.0.jar:/home/burak/.m2/repository/io/cucumber/ci-environment/9.1.0/ci-environment-9.1.0.jar:/home/burak/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/home/burak/.m2/repository/junit/junit/4.13.2/junit-4.13.2.jar:/home/burak/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/burak/.m2/repository/io/cucumber/cucumber-junit/7.5.0/cucumber-junit-7.5.0.jar:/home/burak/.m2/repository/io/cucumber/cucumber-junit-platform-engine/7.5.0/cucumber-junit-platform-engine-7.5.0.jar:/home/burak/.m2/repository/org/junit/platform/junit-platform-engine/1.9.0/junit-platform-engine-1.9.0.jar:/home/burak/.m2/repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar:/home/burak/.m2/repository/org/junit/platform/junit-platform-commons/1.9.0/junit-platform-commons-1.9.0.jar:/home/burak/.m2/repository/org/junit/platform/junit-platform-suite/1.9.0/junit-platform-suite-1.9.0.jar:/home/burak/.m2/repository/org/junit/platform/junit-platform-suite-api/1.9.0/junit-platform-suite-api-1.9.0.jar:/home/burak/.m2/repository/org/junit/platform/junit-platform-suite-engine/1.9.0/junit-platform-suite-engine-1.9.0.jar:/home/burak/.m2/repository/org/junit/platform/junit-platform-suite-commons/1.9.0/junit-platform-suite-commons-1.9.0.jar:/home/burak/.m2/repository/org/junit/platform/junit-platform-launcher/1.9.0/junit-platform-launcher-1.9.0.jar:/home/burak/.m2/repository/org/junit/jupiter/junit-jupiter/5.9.0/junit-jupiter-5.9.0.jar:/home/burak/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.9.0/junit-jupiter-api-5.9.0.jar:/home/burak/.m2/repository/org/junit/jupiter/junit-jupiter-params/5.9.0/junit-jupiter-params-5.9.0.jar:/home/burak/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.9.0/junit-jupiter-engine-5.9.0.jar:"/>
     <property name="java.vm.vendor" value="Ubuntu"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="java.vendor.url" value="https://ubuntu.com/"/>
@@ -16,9 +16,9 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="US"/>
     <property name="sun.boot.library.path" value="/usr/lib/jvm/java-11-openjdk-amd64/lib"/>
-    <property name="sun.java.command" value="/home/burak/Projects/hellocucumber/target/surefire/surefirebooter-20220811110537213_3.jar /home/burak/Projects/hellocucumber/target/surefire 2022-08-11T11-05-36_991-jvmRun1 surefire-20220811110537213_1tmp surefire_0-20220811110537213_2tmp"/>
+    <property name="sun.java.command" value="/home/burak/Projects/hellocucumber/target/surefire/surefirebooter-20220812140944160_3.jar /home/burak/Projects/hellocucumber/target/surefire 2022-08-12T14-09-43_926-jvmRun1 surefire-20220812140944160_1tmp surefire_0-20220812140944160_2tmp"/>
     <property name="jdk.debug" value="release"/>
-    <property name="surefire.test.class.path" value="/home/burak/Projects/hellocucumber/target/test-classes:/home/burak/Projects/hellocucumber/target/classes:/home/burak/.m2/repository/io/cucumber/cucumber-java/7.5.0/cucumber-java-7.5.0.jar:/home/burak/.m2/repository/io/cucumber/cucumber-core/7.5.0/cucumber-core-7.5.0.jar:/home/burak/.m2/repository/io/cucumber/cucumber-gherkin/7.5.0/cucumber-gherkin-7.5.0.jar:/home/burak/.m2/repository/io/cucumber/cucumber-gherkin-messages/7.5.0/cucumber-gherkin-messages-7.5.0.jar:/home/burak/.m2/repository/io/cucumber/gherkin/23.0.1/gherkin-23.0.1.jar:/home/burak/.m2/repository/io/cucumber/messages/18.0.0/messages-18.0.0.jar:/home/burak/.m2/repository/io/cucumber/tag-expressions/4.1.0/tag-expressions-4.1.0.jar:/home/burak/.m2/repository/io/cucumber/cucumber-expressions/16.0.0/cucumber-expressions-16.0.0.jar:/home/burak/.m2/repository/io/cucumber/datatable/7.5.0/datatable-7.5.0.jar:/home/burak/.m2/repository/io/cucumber/cucumber-plugin/7.5.0/cucumber-plugin-7.5.0.jar:/home/burak/.m2/repository/io/cucumber/docstring/7.5.0/docstring-7.5.0.jar:/home/burak/.m2/repository/io/cucumber/html-formatter/19.2.0/html-formatter-19.2.0.jar:/home/burak/.m2/repository/io/cucumber/ci-environment/9.1.0/ci-environment-9.1.0.jar:/home/burak/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/home/burak/.m2/repository/io/cucumber/cucumber-junit-platform-engine/7.5.0/cucumber-junit-platform-engine-7.5.0.jar:/home/burak/.m2/repository/org/junit/platform/junit-platform-engine/1.9.0/junit-platform-engine-1.9.0.jar:/home/burak/.m2/repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar:/home/burak/.m2/repository/org/junit/platform/junit-platform-commons/1.9.0/junit-platform-commons-1.9.0.jar:/home/burak/.m2/repository/org/junit/platform/junit-platform-suite/1.9.0/junit-platform-suite-1.9.0.jar:/home/burak/.m2/repository/org/junit/platform/junit-platform-suite-api/1.9.0/junit-platform-suite-api-1.9.0.jar:/home/burak/.m2/repository/org/junit/platform/junit-platform-suite-engine/1.9.0/junit-platform-suite-engine-1.9.0.jar:/home/burak/.m2/repository/org/junit/platform/junit-platform-suite-commons/1.9.0/junit-platform-suite-commons-1.9.0.jar:/home/burak/.m2/repository/org/junit/platform/junit-platform-launcher/1.9.0/junit-platform-launcher-1.9.0.jar:/home/burak/.m2/repository/org/junit/jupiter/junit-jupiter/5.9.0/junit-jupiter-5.9.0.jar:/home/burak/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.9.0/junit-jupiter-api-5.9.0.jar:/home/burak/.m2/repository/org/junit/jupiter/junit-jupiter-params/5.9.0/junit-jupiter-params-5.9.0.jar:/home/burak/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.9.0/junit-jupiter-engine-5.9.0.jar:"/>
+    <property name="surefire.test.class.path" value="/home/burak/Projects/hellocucumber/target/test-classes:/home/burak/Projects/hellocucumber/target/classes:/home/burak/.m2/repository/io/cucumber/cucumber-java/7.5.0/cucumber-java-7.5.0.jar:/home/burak/.m2/repository/io/cucumber/cucumber-core/7.5.0/cucumber-core-7.5.0.jar:/home/burak/.m2/repository/io/cucumber/cucumber-gherkin/7.5.0/cucumber-gherkin-7.5.0.jar:/home/burak/.m2/repository/io/cucumber/cucumber-gherkin-messages/7.5.0/cucumber-gherkin-messages-7.5.0.jar:/home/burak/.m2/repository/io/cucumber/gherkin/23.0.1/gherkin-23.0.1.jar:/home/burak/.m2/repository/io/cucumber/messages/18.0.0/messages-18.0.0.jar:/home/burak/.m2/repository/io/cucumber/tag-expressions/4.1.0/tag-expressions-4.1.0.jar:/home/burak/.m2/repository/io/cucumber/cucumber-expressions/16.0.0/cucumber-expressions-16.0.0.jar:/home/burak/.m2/repository/io/cucumber/datatable/7.5.0/datatable-7.5.0.jar:/home/burak/.m2/repository/io/cucumber/cucumber-plugin/7.5.0/cucumber-plugin-7.5.0.jar:/home/burak/.m2/repository/io/cucumber/docstring/7.5.0/docstring-7.5.0.jar:/home/burak/.m2/repository/io/cucumber/html-formatter/19.2.0/html-formatter-19.2.0.jar:/home/burak/.m2/repository/io/cucumber/ci-environment/9.1.0/ci-environment-9.1.0.jar:/home/burak/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/home/burak/.m2/repository/junit/junit/4.13.2/junit-4.13.2.jar:/home/burak/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/burak/.m2/repository/io/cucumber/cucumber-junit/7.5.0/cucumber-junit-7.5.0.jar:/home/burak/.m2/repository/io/cucumber/cucumber-junit-platform-engine/7.5.0/cucumber-junit-platform-engine-7.5.0.jar:/home/burak/.m2/repository/org/junit/platform/junit-platform-engine/1.9.0/junit-platform-engine-1.9.0.jar:/home/burak/.m2/repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar:/home/burak/.m2/repository/org/junit/platform/junit-platform-commons/1.9.0/junit-platform-commons-1.9.0.jar:/home/burak/.m2/repository/org/junit/platform/junit-platform-suite/1.9.0/junit-platform-suite-1.9.0.jar:/home/burak/.m2/repository/org/junit/platform/junit-platform-suite-api/1.9.0/junit-platform-suite-api-1.9.0.jar:/home/burak/.m2/repository/org/junit/platform/junit-platform-suite-engine/1.9.0/junit-platform-suite-engine-1.9.0.jar:/home/burak/.m2/repository/org/junit/platform/junit-platform-suite-commons/1.9.0/junit-platform-suite-commons-1.9.0.jar:/home/burak/.m2/repository/org/junit/platform/junit-platform-launcher/1.9.0/junit-platform-launcher-1.9.0.jar:/home/burak/.m2/repository/org/junit/jupiter/junit-jupiter/5.9.0/junit-jupiter-5.9.0.jar:/home/burak/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.9.0/junit-jupiter-api-5.9.0.jar:/home/burak/.m2/repository/org/junit/jupiter/junit-jupiter-params/5.9.0/junit-jupiter-params-5.9.0.jar:/home/burak/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.9.0/junit-jupiter-engine-5.9.0.jar:"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="/home/burak"/>
     <property name="user.language" value="en"/>
@@ -32,7 +32,7 @@
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="/home/burak/Projects/hellocucumber/target/surefire/surefirebooter-20220811110537213_3.jar"/>
+    <property name="surefire.real.class.path" value="/home/burak/Projects/hellocucumber/target/surefire/surefirebooter-20220812140944160_3.jar"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="11.0.16+8-post-Ubuntu-0ubuntu120.04"/>
     <property name="user.name" value="burak"/>
@@ -57,100 +57,30 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="55.0"/>
   </properties>
-  <testcase name="The example" classname="An example" time="0.072">
-    <error message="The step &apos;add rate &quot;USD&quot;, &quot;JPY&quot;, 110.0&apos; and 2 other step(s) are undefined.&#10;You can implement these steps using the snippet(s) below:&#10;&#10;@Given(&quot;add rate {string}, {string}, {double}&quot;)&#10;public void add_rate(String string, String string2, Double double1) {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;" type="io.cucumber.junit.platform.engine.UndefinedStepException"><![CDATA[io.cucumber.junit.platform.engine.UndefinedStepException: 
-The step 'add rate "USD", "JPY", 110.0' and 2 other step(s) are undefined.
-You can implement these steps using the snippet(s) below:
-
-@Given("add rate {string}, {string}, {double}")
-public void add_rate(String string, String string2, Double double1) {
-    // Write code here that turns the phrase above into concrete actions
-    throw new io.cucumber.java.PendingException();
-}
-
-	at io.cucumber.core.runtime.TestCaseResultObserver.assertTestCasePassed(TestCaseResultObserver.java:69)
-	at io.cucumber.junit.platform.engine.TestCaseResultObserver.assertTestCasePassed(TestCaseResultObserver.java:22)
-	at io.cucumber.junit.platform.engine.CucumberEngineExecutionContext.lambda$runTestCase$4(CucumberEngineExecutionContext.java:114)
-	at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java:129)
-	at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)
-	at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:129)
-	at io.cucumber.junit.platform.engine.CucumberEngineExecutionContext.runTestCase(CucumberEngineExecutionContext.java:109)
-	at io.cucumber.junit.platform.engine.PickleDescriptor.execute(PickleDescriptor.java:100)
-	at io.cucumber.junit.platform.engine.PickleDescriptor.execute(PickleDescriptor.java:29)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:151)
-	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
-	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
-	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
-	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155)
-	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
-	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
-	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
-	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155)
-	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
-	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
-	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
-	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:35)
-	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57)
-	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:54)
-	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:147)
-	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:127)
-	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:90)
-	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:73)
-	at org.junit.platform.suite.engine.SuiteLauncher.execute(SuiteLauncher.java:63)
-	at org.junit.platform.suite.engine.SuiteTestDescriptor.execute(SuiteTestDescriptor.java:150)
-	at org.junit.platform.suite.engine.SuiteTestEngine.lambda$execute$0(SuiteTestEngine.java:73)
-	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:183)
-	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:195)
-	at java.base/java.util.Iterator.forEachRemaining(Iterator.java:133)
-	at java.base/java.util.Spliterators$IteratorSpliterator.forEachRemaining(Spliterators.java:1801)
-	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:484)
-	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474)
-	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:150)
-	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:173)
-	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
-	at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:497)
-	at org.junit.platform.suite.engine.SuiteTestEngine.execute(SuiteTestEngine.java:73)
-	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:147)
-	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:127)
-	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:90)
-	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.lambda$execute$0(EngineExecutionOrchestrator.java:55)
-	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.withInterceptedStreams(EngineExecutionOrchestrator.java:102)
-	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:54)
-	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:114)
-	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:86)
-	at org.junit.platform.launcher.core.DefaultLauncherSession$DelegatingLauncher.execute(DefaultLauncherSession.java:86)
-	at org.apache.maven.surefire.junitplatform.LazyLauncher.execute(LazyLauncher.java:55)
-	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.execute(JUnitPlatformProvider.java:223)
-	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invokeAllTests(JUnitPlatformProvider.java:175)
-	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invoke(JUnitPlatformProvider.java:139)
-	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:456)
-	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:169)
-	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:595)
-	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:581)
-]]></error>
+  <testcase name="The example 1" classname="An example" time="0.056">
     <system-out><![CDATA[
-Scenario: The example                       &amp#27;[90m# hellocucumber/example.feature:3&amp#27;[0m
-  &amp#27;[33mGiven &amp#27;[0m&amp#27;[33madd rate "USD", "JPY", 110.0&amp#27;[0m
-  &amp#27;[36mGiven &amp#27;[0m&amp#27;[36madd rate "USD", "AUD", 1.45&amp#27;[0m
-  &amp#27;[36mGiven &amp#27;[0m&amp#27;[36madd rate "JPY", "GBP", 0.007&amp#27;[0m
-  &amp#27;[36mWhen &amp#27;[0m&amp#27;[36mall step definitions are implemented&amp#27;[0m &amp#27;[90m# hellocucumber.StepDefinitions.allStepDefinitionsAreImplemented()&amp#27;[0m
-  &amp#27;[36mThen &amp#27;[0m&amp#27;[36mthe scenario passes&amp#27;[0m                  &amp#27;[90m# hellocucumber.StepDefinitions.theScenarioPasses()&amp#27;[0m
+Scenario: The example 1               &amp#27;[90m# hellocucumber/example.feature:3&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32madd rate &amp#27;[0m&amp#27;[32m&amp#27;[1m"USD"&amp#27;[0m&amp#27;[32m, &amp#27;[0m&amp#27;[32m&amp#27;[1m"JPY"&amp#27;[0m&amp#27;[32m, &amp#27;[0m&amp#27;[32m&amp#27;[1m132.62&amp#27;[0m &amp#27;[90m# hellocucumber.StepDefinitions.add_rate(java.lang.String,java.lang.String,java.lang.Double)&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32madd rate &amp#27;[0m&amp#27;[32m&amp#27;[1m"USD"&amp#27;[0m&amp#27;[32m, &amp#27;[0m&amp#27;[32m&amp#27;[1m"AUD"&amp#27;[0m&amp#27;[32m, &amp#27;[0m&amp#27;[32m&amp#27;[1m1.40&amp#27;[0m   &amp#27;[90m# hellocucumber.StepDefinitions.add_rate(java.lang.String,java.lang.String,java.lang.Double)&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32madd rate &amp#27;[0m&amp#27;[32m&amp#27;[1m"JPY"&amp#27;[0m&amp#27;[32m, &amp#27;[0m&amp#27;[32m&amp#27;[1m"GBP"&amp#27;[0m&amp#27;[32m, &amp#27;[0m&amp#27;[32m&amp#27;[1m0.0062&amp#27;[0m &amp#27;[90m# hellocucumber.StepDefinitions.add_rate(java.lang.String,java.lang.String,java.lang.Double)&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32madd wanted &amp#27;[0m&amp#27;[32m&amp#27;[1m"AUD"&amp#27;[0m&amp#27;[32m, &amp#27;[0m&amp#27;[32m&amp#27;[1m"USD"&amp#27;[0m&amp#27;[32m, &amp#27;[0m&amp#27;[32m&amp#27;[1m1.0&amp#27;[0m  &amp#27;[90m# hellocucumber.StepDefinitions.add_wanted(java.lang.String,java.lang.String,java.lang.Double)&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mexpected result &amp#27;[0m&amp#27;[32m&amp#27;[1m0.71&amp#27;[0m          &amp#27;[90m# hellocucumber.StepDefinitions.add_wanted(java.lang.Double)&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32msolve the problem&amp#27;[0m              &amp#27;[90m# hellocucumber.StepDefinitions.allStepDefinitionsAreImplemented()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe results match&amp#27;[0m              &amp#27;[90m# hellocucumber.StepDefinitions.theScenarioPasses()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="The example 2" classname="An example" time="0.009">
+    <system-out><![CDATA[
+Scenario: The example 2               &amp#27;[90m# hellocucumber/example.feature:12&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32madd rate &amp#27;[0m&amp#27;[32m&amp#27;[1m"USD"&amp#27;[0m&amp#27;[32m, &amp#27;[0m&amp#27;[32m&amp#27;[1m"JPY"&amp#27;[0m&amp#27;[32m, &amp#27;[0m&amp#27;[32m&amp#27;[1m132.62&amp#27;[0m &amp#27;[90m# hellocucumber.StepDefinitions.add_rate(java.lang.String,java.lang.String,java.lang.Double)&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32madd rate &amp#27;[0m&amp#27;[32m&amp#27;[1m"USD"&amp#27;[0m&amp#27;[32m, &amp#27;[0m&amp#27;[32m&amp#27;[1m"AUD"&amp#27;[0m&amp#27;[32m, &amp#27;[0m&amp#27;[32m&amp#27;[1m1.40&amp#27;[0m   &amp#27;[90m# hellocucumber.StepDefinitions.add_rate(java.lang.String,java.lang.String,java.lang.Double)&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32madd rate &amp#27;[0m&amp#27;[32m&amp#27;[1m"AUD"&amp#27;[0m&amp#27;[32m, &amp#27;[0m&amp#27;[32m&amp#27;[1m"TRY"&amp#27;[0m&amp#27;[32m, &amp#27;[0m&amp#27;[32m&amp#27;[1m12.79&amp#27;[0m  &amp#27;[90m# hellocucumber.StepDefinitions.add_rate(java.lang.String,java.lang.String,java.lang.Double)&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32madd rate &amp#27;[0m&amp#27;[32m&amp#27;[1m"EUR"&amp#27;[0m&amp#27;[32m, &amp#27;[0m&amp#27;[32m&amp#27;[1m"TRY"&amp#27;[0m&amp#27;[32m, &amp#27;[0m&amp#27;[32m&amp#27;[1m18.58&amp#27;[0m  &amp#27;[90m# hellocucumber.StepDefinitions.add_rate(java.lang.String,java.lang.String,java.lang.Double)&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32madd rate &amp#27;[0m&amp#27;[32m&amp#27;[1m"JPY"&amp#27;[0m&amp#27;[32m, &amp#27;[0m&amp#27;[32m&amp#27;[1m"GBP"&amp#27;[0m&amp#27;[32m, &amp#27;[0m&amp#27;[32m&amp#27;[1m0.0062&amp#27;[0m &amp#27;[90m# hellocucumber.StepDefinitions.add_rate(java.lang.String,java.lang.String,java.lang.Double)&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32madd wanted &amp#27;[0m&amp#27;[32m&amp#27;[1m"GBP"&amp#27;[0m&amp#27;[32m, &amp#27;[0m&amp#27;[32m&amp#27;[1m"EUR"&amp#27;[0m&amp#27;[32m, &amp#27;[0m&amp#27;[32m&amp#27;[1m1.0&amp#27;[0m  &amp#27;[90m# hellocucumber.StepDefinitions.add_wanted(java.lang.String,java.lang.String,java.lang.Double)&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mexpected result &amp#27;[0m&amp#27;[32m&amp#27;[1m1.17&amp#27;[0m          &amp#27;[90m# hellocucumber.StepDefinitions.add_wanted(java.lang.Double)&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32msolve the problem&amp#27;[0m              &amp#27;[90m# hellocucumber.StepDefinitions.allStepDefinitionsAreImplemented()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe results match&amp#27;[0m              &amp#27;[90m# hellocucumber.StepDefinitions.theScenarioPasses()&amp#27;[0m
 ]]></system-out>
   </testcase>
 </testsuite>

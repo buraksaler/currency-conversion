@@ -14,31 +14,19 @@ public class StepDefinitions {
     ArrayList<Rate> rates = new ArrayList<Rate>();
     Rate wanted;
     Double result;
-    Double expectedResult;
 
-    @Given("add rate {string}, {string}, {double}")
+    @Given("currency rate {string} to {string} is {double}")
+    @And("{string} to {string} is {double}")
     public void add_rate(String string, String string2, Double double1) {
         rates.add(new Rate(string, string2, double1));
     }
-
-    @Given("add wanted {string}, {string}, {double}")
-    public void add_wanted(String string, String string2, Double double1) {
+    @When("we want {double} {string} to be converted to {string}")
+    public void allStepDefinitionsAreImplemented(Double double1, String string, String string2) {
         wanted = new Rate(string, string2, double1);
-    }
-
-    @Given("expected result {double}")
-    public void add_wanted(Double double1) {
-        expectedResult = double1;
-    }
-
-    @When("solve the problem")
-    public void allStepDefinitionsAreImplemented() {
         result =  solveCurrency(rates, wanted);
     }
-
-    @Then("the results match")
-    public void theScenarioPasses() {
-        assertEquals(expectedResult, result);
+    @Then("the result should be {double}")
+    public void theScenarioPasses(Double double1) {
+        assertEquals(double1, result);
     }
-
 }
